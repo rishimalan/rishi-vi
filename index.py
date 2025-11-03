@@ -71,7 +71,7 @@ if __name__ == "__main__":
     try:
         width = int(input("Enter terminal width (default 80): ") or "80")
     except ValueError:
-        width = 80
+        width = 70
 
     try:
         fps = int(input("Enter FPS (default: use video FPS): ") or "0")
